@@ -70,7 +70,7 @@
     border-radius: $card-border-radius;
     border: 1px solid transparent;
     cursor: pointer;
-    transition: 0.5s all;
+    transition: all 0.5s;
 
     &:hover {
       color: $blue;
