@@ -16,6 +16,12 @@
     object-fit: contain;
     box-sizing: content-box;
     border: 3px solid transparent;
+    transition: transform 1s;
+
+    &:hover {
+      border-color: $border-color;
+      transform: scale(1.2);
+    }
   }
 
   &__product-name {
@@ -57,12 +63,13 @@
     font-weight: 700;
     line-height: 16px;
     color: #fff;
+    text-decoration: none;
     text-transform: uppercase;
 
     background: $blue;
     border-radius: $card-border-radius;
     border: 1px solid transparent;
-    cursor: pointer;
+    transition: all 1s;
 
     &:hover {
       color: $blue;
