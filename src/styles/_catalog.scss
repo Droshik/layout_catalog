@@ -1,15 +1,18 @@
 .catalog {
-  display: flex;
+  display: grid;
   justify-content: center;
+  padding-bottom: $catalog-gap-vertical;
 
   &__inner {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, $card-width);
+    grid-column-gap: $catalog-gap-horizontal;
+    grid-row-gap: $catalog-gap-vertical;
+    justify-content: space-around;
     max-width: $catalog-width;
   }
 
-  &__product-card {
-    margin-bottom: 50px;
-  }
+  //&__product-card {
+  //  margin-bottom: 50px;
+  //}
 }
