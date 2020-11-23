@@ -16,8 +16,7 @@
     object-fit: contain;
     box-sizing: content-box;
     border: 3px solid transparent;
-    transition: 0.5s transform;
-    will-change: transform;
+    transition: transform 1s;
 
     &:hover {
       border-color: $border-color;
@@ -69,8 +68,7 @@
     background: $blue;
     border-radius: $card-border-radius;
     border: 1px solid transparent;
-    cursor: pointer;
-    transition: all 0.5s;
+    transition: all 1s;
 
     &:hover {
       color: $blue;
