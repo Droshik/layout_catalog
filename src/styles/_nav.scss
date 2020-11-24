@@ -3,10 +3,8 @@
 
   &__list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 1fr);
     grid-auto-flow: column;
     grid-column-gap: 20px;
-    justify-content: space-between;
     list-style: none;
     height: 100%;
     margin: 0;
